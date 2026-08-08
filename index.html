@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOLV Energy — Powering Progress with Proven Execution</title>
+  <meta name="description" content="SOLV Energy builds, operates, and optimizes utility-scale solar, energy storage, high voltage, and critical infrastructure across North America.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+</head>
+<body>
+  <!-- Page Transition Overlay Layer -->
+  <div id="page-transition-overlay" class="page-transition-overlay">
+    <div class="transition-ring-container">
+      <img src="/assets/logo.svg" alt="SOLV Energy Logo" style="height: 48px; filter: brightness(0) invert(1);">
+    </div>
+  </div>
+
+  <!-- Global Header Navigation -->
+  <header id="site-header" class="site-header">
+    <div class="header-container">
+      <!-- Official Logo SVG -->
+      <a href="#/" class="site-logo" aria-label="SOLV Energy Homepage">
+        <img src="/assets/logo.svg" alt="SOLV Energy Logo" class="brand-logo-img">
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#/who-we-are" class="nav-link" data-route="who-we-are">Who We Are</a>
+        <a href="#/what-we-do" class="nav-link" data-route="what-we-do">What We Do</a>
+        <a href="#/projects" class="nav-link" data-route="projects">Projects</a>
+        <a href="#/impact" class="nav-link" data-route="impact">Impact</a>
+        <a href="#/investors" class="nav-link" data-route="investors">Investors</a>
+        <a href="#/careers" class="nav-link" data-route="careers">Careers</a>
+        <a href="#/news" class="nav-link" data-route="news">News</a>
+      </nav>
+
+      <!-- Header Action CTA -->
+      <div class="header-actions">
+        <a href="#/contact" class="btn-connect">
+          <span>Let's Connect</span>
+          <svg class="btn-arrow" viewBox="0 0 20 20" fill="none">
+            <path d="M4.166 10h11.668M10 4.166L15.833 10 10 15.833" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Overlay Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <nav class="mobile-nav">
+        <a href="#/" class="mobile-nav-link">Home</a>
+        <a href="#/who-we-are" class="mobile-nav-link">Who We Are</a>
+        <a href="#/what-we-do" class="mobile-nav-link">What We Do</a>
+        <a href="#/projects" class="mobile-nav-link">Projects</a>
+        <a href="#/impact" class="mobile-nav-link">Impact</a>
+        <a href="#/investors" class="mobile-nav-link">Investors</a>
+        <a href="#/careers" class="mobile-nav-link">Careers</a>
+        <a href="#/news" class="mobile-nav-link">News</a>
+        <a href="#/contact" class="mobile-btn-connect">Let's Connect &rarr;</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Dynamic Page Content Container -->
+  <main id="app" class="main-content" role="main"></main>
+
+  <!-- Video Player Modal -->
+  <div id="video-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-container video-modal-container">
+      <button class="modal-close" id="close-video-modal" aria-label="Close Video">&times;</button>
+      <div class="video-wrapper">
+        <iframe id="video-frame" src="" title="SOLV Energy Overview Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Universal Modal / Drawer Container -->
+  <div id="drawer-modal" class="modal-overlay" aria-hidden="true">
+    <div class="drawer-container">
+      <button class="drawer-close" id="close-drawer" aria-label="Close Drawer">&times;</button>
+      <div id="drawer-content" class="drawer-body"></div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/js/app.js"></script>
+</body>
+</html>
