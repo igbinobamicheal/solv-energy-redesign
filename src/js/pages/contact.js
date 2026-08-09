@@ -15,9 +15,7 @@ export function renderContact() {
       </div>
     </section>
 
-    <div class="section-curve">
-      <svg viewBox="0 0 1440 120" fill="none" preserveAspectRatio="none"><path d="M0 60C360 120 720 120 1080 60C1260 30 1380 90 1440 120H0V60Z" fill="#0054A6"/></svg>
-    </div>
+
 
     <!-- CONTACT FORM & DETAILS SECTION -->
     <section class="contact-cta-section" style="padding-top: 2rem;">

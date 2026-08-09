@@ -46,9 +46,7 @@ export function renderCareers() {
       </div>
     </section>
 
-    <div class="section-curve">
-      <svg viewBox="0 0 1440 120" fill="none" preserveAspectRatio="none"><path d="M0 60C360 120 720 120 1080 60C1260 30 1380 90 1440 120H0V60Z" fill="#FFFFFF"/></svg>
-    </div>
+
 
     <section style="background: #FFF; padding: 6rem 0;">
       <div class="container" style="max-width: 900px;">

@@ -57,12 +57,6 @@ export function renderHome() {
         </div>
       </div>
 
-      <!-- Integrated Seamless Wave Divider (Fills into Intro Section #FFFFFF) -->
-      <div class="section-divider-bottom">
-        <svg viewBox="0 0 1440 125" fill="none" preserveAspectRatio="none">
-          <path d="M0,32 C280,110 560,110 840,45 C1120,-20 1300,50 1440,80 L1440,125 L0,125 Z" fill="#FFFFFF"/>
-        </svg>
-      </div>
     </section>
 
     <!-- INTRODUCTION / WHO WE ARE PREVIEW SECTION -->
@@ -101,12 +95,6 @@ export function renderHome() {
         </div>
       </div>
 
-      <!-- Integrated Seamless Wave Divider (Fills into Our Focus Section #0054A6) -->
-      <div class="section-divider-bottom">
-        <svg viewBox="0 0 1440 125" fill="none" preserveAspectRatio="none">
-          <path d="M0,50 C320,120 640,0 960,80 C1200,120 1360,40 1440,60 L1440,125 L0,125 Z" fill="#0054A6"/>
-        </svg>
-      </div>
     </section>
 
     <!-- OUR FOCUS SECTION (SERVICE CARDS) -->
@@ -191,12 +179,6 @@ export function renderHome() {
         </a>
       </div>
 
-      <!-- Integrated Seamless Wave Divider (Fills into Featured Project Section #0B131F) -->
-      <div class="section-divider-bottom">
-        <svg viewBox="0 0 1440 125" fill="none" preserveAspectRatio="none">
-          <path d="M0,40 C360,110 720,10 1080,80 C1260,115 1380,45 1440,70 L1440,125 L0,125 Z" fill="#0B131F"/>
-        </svg>
-      </div>
     </section>
 
     <!-- FEATURED PROJECT SECTION (EIFFEL) -->
@@ -259,7 +241,7 @@ export function renderHome() {
           <div class="carousel-card">
             <img src="/assets/bess_storage.png" alt="Gemini Storage Facility">
             <div class="carousel-card-body">
-              <span class="eyebrow eyebrow-lime">CLARK COUNTY, NV</span>
+              <span class="eyebrow eyebrow-blue">CLARK COUNTY, NV</span>
               <h4 style="font-size: 1.2rem; margin-bottom: 0.35rem;">Gemini Storage Facility</h4>
               <p style="font-size: 0.8rem; color: rgba(255,255,255,0.7); margin-bottom: 0.85rem;">380 MW / 1,400 MWh Standalone BESS</p>
               <a href="#/projects" style="font-size: 0.8rem; font-weight: 700; color: var(--color-lime);">View Details &rarr;</a>
@@ -269,7 +251,7 @@ export function renderHome() {
           <div class="carousel-card">
             <img src="/assets/high_voltage_substation.png" alt="Desert Sunlight Solar">
             <div class="carousel-card-body">
-              <span class="eyebrow eyebrow-lime">DESERT CENTER, CA</span>
+              <span class="eyebrow eyebrow-blue">DESERT CENTER, CA</span>
               <h4 style="font-size: 1.2rem; margin-bottom: 0.35rem;">Desert Sunlight</h4>
               <p style="font-size: 0.8rem; color: rgba(255,255,255,0.7); margin-bottom: 0.85rem;">550 MWp Utility-Scale Solar PV</p>
               <a href="#/projects" style="font-size: 0.8rem; font-weight: 700; color: var(--color-lime);">View Details &rarr;</a>
@@ -279,7 +261,7 @@ export function renderHome() {
           <div class="carousel-card">
             <img src="/assets/intro_solar_project.png" alt="Topaz Solar Station">
             <div class="carousel-card-body">
-              <span class="eyebrow eyebrow-lime">SAN LUIS OBISPO, CA</span>
+              <span class="eyebrow eyebrow-blue">SAN LUIS OBISPO, CA</span>
               <h4 style="font-size: 1.2rem; margin-bottom: 0.35rem;">Topaz Solar Station</h4>
               <p style="font-size: 0.8rem; color: rgba(255,255,255,0.7); margin-bottom: 0.85rem;">550 MWp Solar Farm & Interconnect</p>
               <a href="#/projects" style="font-size: 0.8rem; font-weight: 700; color: var(--color-lime);">View Details &rarr;</a>
@@ -289,7 +271,7 @@ export function renderHome() {
           <div class="carousel-card">
             <img src="/assets/hero_solar_farm.png" alt="Copper Mountain Infrastructure">
             <div class="carousel-card-body">
-              <span class="eyebrow eyebrow-lime">BOULDER CITY, NV</span>
+              <span class="eyebrow eyebrow-blue">BOULDER CITY, NV</span>
               <h4 style="font-size: 1.2rem; margin-bottom: 0.35rem;">Copper Mountain</h4>
               <p style="font-size: 0.8rem; color: rgba(255,255,255,0.7); margin-bottom: 0.85rem;">458 MWp Hybrid PV + BESS Facility</p>
               <a href="#/projects" style="font-size: 0.8rem; font-weight: 700; color: var(--color-lime);">View Details &rarr;</a>
@@ -298,12 +280,6 @@ export function renderHome() {
         </div>
       </div>
 
-      <!-- Integrated Seamless Wave Divider (Fills into Testimonial Section #FFFFFF) -->
-      <div class="section-divider-bottom">
-        <svg viewBox="0 0 1440 125" fill="none" preserveAspectRatio="none">
-          <path d="M0,60 C300,10 600,110 900,40 C1150,-10 1320,70 1440,50 L1440,125 L0,125 Z" fill="#FFFFFF"/>
-        </svg>
-      </div>
     </section>
 
     <!-- TESTIMONIAL SECTION -->
@@ -323,12 +299,6 @@ export function renderHome() {
         </div>
       </div>
 
-      <!-- Integrated Seamless Wave Divider (Fills into Contact Section #0054A6) -->
-      <div class="section-divider-bottom">
-        <svg viewBox="0 0 1440 125" fill="none" preserveAspectRatio="none">
-          <path d="M0,50 C360,115 720,15 1080,85 C1260,120 1380,40 1440,65 L1440,125 L0,125 Z" fill="#0054A6"/>
-        </svg>
-      </div>
     </section>
 
     <!-- CONTACT CTA SECTION -->
@@ -373,12 +343,6 @@ export function renderHome() {
         </form>
       </div>
 
-      <!-- Integrated Seamless Wave Divider (Fills into Footer Section #0B131F) -->
-      <div class="section-divider-bottom">
-        <svg viewBox="0 0 1440 125" fill="none" preserveAspectRatio="none">
-          <path d="M0,45 C320,110 640,20 960,90 C1200,125 1360,35 1440,55 L1440,125 L0,125 Z" fill="#0B131F"/>
-        </svg>
-      </div>
     </section>
 
     <!-- FOOTER -->

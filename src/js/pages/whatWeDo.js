@@ -27,11 +27,6 @@ export function renderWhatWeDo() {
         </div>
       </div>
 
-      <div class="section-divider-bottom">
-        <svg viewBox="0 0 1440 125" fill="none" preserveAspectRatio="none">
-          <path d="M0,32 C280,110 560,110 840,45 C1120,-20 1300,50 1440,80 L1440,125 L0,125 Z" fill="#FFFFFF"/>
-        </svg>
-      </div>
     </section>
 
     <!-- CAPABILITIES EXPANDABLE ACCORDION SECTION -->
@@ -95,11 +90,6 @@ export function renderWhatWeDo() {
         </div>
       </div>
 
-      <div class="section-divider-bottom">
-        <svg viewBox="0 0 1440 125" fill="none" preserveAspectRatio="none">
-          <path d="M0,50 C320,120 640,0 960,80 C1200,120 1360,40 1440,60 L1440,125 L0,125 Z" fill="#0054A6"/>
-        </svg>
-      </div>
     </section>
 
     <!-- CONTEXTUAL CTA BANNER (SPEC SECTION 27) -->
@@ -110,11 +100,6 @@ export function renderWhatWeDo() {
         <a href="#/contact" class="btn btn-lime">Discuss Your Project &rarr;</a>
       </div>
 
-      <div class="section-divider-bottom">
-        <svg viewBox="0 0 1440 125" fill="none" preserveAspectRatio="none">
-          <path d="M0,45 C320,110 640,20 960,90 C1200,125 1360,35 1440,55 L1440,125 L0,125 Z" fill="#0B131F"/>
-        </svg>
-      </div>
     </section>
 
     <footer class="site-footer">

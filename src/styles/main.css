@@ -147,6 +147,10 @@ img {
   color: var(--color-lime);
 }
 
+.eyebrow-blue {
+  color: var(--color-cyan-accent);
+}
+
 /* Refined Minimalist Buttons */
 .btn {
   display: inline-flex;
